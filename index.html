@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="card">
+        <h1 class="result" style="color: white; text-align: center; width: 100%;">0</h1>
+        <button class="ok">
+            Сгенерировать >>
+        </button>
+        <div class="inputs">
+            <div class="flex flex-col">
+                <input type="number" class="start">
+                <span class="positionspan1">Максимальное <br> число</span>
+            </div>
+            <div class="flex flex-col">
+                <input class="end" type="number" />
+                <span class="positionspan2">Минимальное <br> число </span>
+            </div>
+            <audio id="sound" src="audio.mp3"></audio>
+        </div>
+    </div>
+    <div class="blockImg">
+        <img class="imgAnima" src="anim.svg" alt="">
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
